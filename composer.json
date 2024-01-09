@@ -1,0 +1,27 @@
+{
+    "name": "highliuk/vite",
+    "description": "Parse Vite.js manifest file easily and print tags in PHP to enjoy HMR",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vite",
+        "vitejs",
+        "hmr",
+        "php",
+        "manifest"
+    ],
+    "autoload": {
+        "psr-4": {
+            "HighLiuk\\Vite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luca Di Fazio",
+            "email": "highliuk@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
