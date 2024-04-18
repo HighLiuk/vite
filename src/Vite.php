@@ -6,7 +6,7 @@ class Vite
 {
     public function __construct(
         public readonly Manifest $manifest,
-        public readonly string $host = 'http://localhost:5173'
+        public readonly string $host = 'http://localhost:5173/'
     ) {
     }
 
