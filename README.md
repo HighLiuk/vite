@@ -16,7 +16,7 @@ composer require highliuk/vite
 use HighLiuk\Vite\Vite;
 use HighLiuk\Vite\Manifest;
 
-$manifest = new Manifest('/path/to/dist', '/url/to/dist');
+$manifest = new Manifest('/path/to/dist/', '/url/to/dist/');
 $vite = new Vite($manifest);
 
 // print the tags
@@ -25,11 +25,15 @@ echo $vite->tags();
 
 In this example, replace `/path/to/dist` with the path to your Vite.js dist directory and `/url/to/dist` with the URL to your Vite.js dist directory.
 
-You can also specify the Vite host and port (defaults to `http://localhost:5173`):
+You can also specify the Vite host and port (defaults to `http://localhost:5173/`):
 
 ```php
-$vite = new Vite($manifest, 'http://localhost:port');
+$vite = new Vite($manifest, 'http://localhost:port/');
 ```
+
+## Example
+
+See the [example](example/README.md) directory for a full example.
 
 ## License
 

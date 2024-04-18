@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5aa1fa0bfe14084ce1aae0286155b9f0",
+    "packages": [
+        {
+            "name": "highliuk/vite",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/HighLiuk/vite.git",
+                "reference": "294abd7005272fb9de39c6ec105a7b8ceb8efeff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/HighLiuk/vite/zipball/294abd7005272fb9de39c6ec105a7b8ceb8efeff",
+                "reference": "294abd7005272fb9de39c6ec105a7b8ceb8efeff",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "HighLiuk\\Vite\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luca Di Fazio",
+                    "email": "highliuk@gmail.com"
+                }
+            ],
+            "description": "Parse Vite.js manifest file easily and print tags in PHP to enjoy HMR",
+            "keywords": [
+                "Hmr",
+                "manifest",
+                "php",
+                "vite",
+                "vitejs"
+            ],
+            "support": {
+                "issues": "https://github.com/HighLiuk/vite/issues",
+                "source": "https://github.com/HighLiuk/vite/tree/1.0.1"
+            },
+            "time": "2024-04-18T20:30:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
